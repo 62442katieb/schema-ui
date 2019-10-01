@@ -63,11 +63,11 @@
 <template>
   <div class="docked-layout">
     <section class="smooth-scroller" style="padding-top: 0">
-      <section style="height: 30vw; min-height: 15rem; background: linear-gradient(#268762, #15ac7f)">
+      <section style="height: 30vw; min-height: 15rem; background: linear-gradient(#ffffff, #f4f5f6)">
         <div style="
           height: 30vw;
           min-height: 15rem;
-          background-image: url(/static/images/about%20the%20study.svg);
+          background-image: url(/static/images/undraw_detailed_examination_joef.svg);
           background-position: center;
           background-size: contain;
           background-repeat: no-repeat">
@@ -76,28 +76,35 @@
       <br>
       <section>
         <div class="container-fluid">
-          <h2>Welcome to Voice Study</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu sagittis leo, sit
-            amet consectetur mi. Donec volutpat rutrum massa et luctus. Fusce ac dui quam. Nam a
-            nibh porttitor, tincidunt libero id, condimentum velit. Praesent ultricies consectetur
-            nulla vel pharetra. Fusce auctor viverra fringilla. Duis euismod enim eu quam tincidunt,
-            sed faucibus leo placerat. Pellentesque et justo a orci dictum pulvinar eleifend at
-            nisl. Integer eu purus sapien.</p>
+          <h2>Welcome to DIVA Study</h2>
+          <p align='justify'>The purpose of the DIVA, or Dense Investigation of Variability of
+            Affect, Study is to gain a better understanding of how brain activity
+            and emotion vary within individuals and how health and lifestyle
+            factors impact this variability. We are asking you to participate
+            because you are an adult female between the ages of 18 and 30 years
+            old. In this study, you may be asked to complete one or more weekly
+            two-hour MRI scans, along with other external tasks, for a total of
+            no more than 13 sessions. In addition to MRI scanning and
+            task/questionnaire completion, you will be asked to wear an activity
+            tracker and submit saliva and speech data samples twice a week
+            throughout the duration of the 13-week study.</p>
         </div>
       </section>
 
       <section>
         <div class="image container">
           <div class="image">
-            <BridgeImage style="margin-bottom: -6px" src="/static/images/about%20the%20study.svg"/>
+            <BridgeImage style="margin-bottom: -6px" src="/static/images/undraw_Mobile_app_p3ts.svg"/>
           </div>
           <div class="text" style="padding-top: 1rem">
-            <h3>Understand your PD</h3>
-            <p>Although your path is uncertain, seeing patterns over time may lead to a better
-              understanding of your PD. Tracking your medication and other factors
-              (e.g. stress, exercise) may provide insight into your symptoms and your ability to
-              complete activities.  Understanding this may provide insights into your day to day
-              health and lifestyle.</p>
+            <h3>Mobile Questionnaires</h3>
+            <p align='justify'>Twice a week, you will be prompted by a notification
+              on your phone to complete several surveys and answer questions
+              online. Questionnaires include information about your mental, emotional,
+              and physical states, which may vary from week to week. You do not
+              have to answer any questions that make you feel uncomfortable. You
+              will be prompted to answer ompleting the surveys will take about 20
+              minutes and will be done on your phone.</p>
           </div>
         </div>
       </section>
@@ -105,15 +112,16 @@
       <section>
         <div class="image container">
           <div class="image">
-            <BridgeImage style="padding-top: 1.5rem" src="/static/images/tell%20your%20story.svg"/>
+            <BridgeImage style="padding-top: 1.5rem" src="/static/images/undraw_activity_tracker_1l9o.svg"/>
           </div>
           <div class="text">
-            <h3>Telling your story</h3>
-            <p>Through the mPower app, you can tell your story of living with PD. It’s a tool to
-              understand your symptoms, factors, and how these relate to your medication. You also
-              can see your changes over time on physical and cognitive activities. This can help
-              you talk about your story with doctors and caregivers. It is about you and how you
-              live with PD.</p>
+            <h3>Affective Variability in Life</h3>
+            <p>In addition to answering questions about your mental, emotional, and
+              physical states, you will be asked to wear a fitness tracker throughout
+              the coures of the study to monitor your heart rate, activity, and sleep.
+              This information will help us understand what aspects of life affect
+              your mood.
+            </p>
           </div>
         </div>
       </section>
@@ -121,12 +129,13 @@
       <section>
         <div class="image container">
           <div class="image">
-            <BridgeImage style="transform: scale(0.7); padding-bottom: 1rem" src="/static/images/create your story.svg"/>
+            <BridgeImage style="padding-bottom: 1rem" src="/static/images/undraw_inspection_9phc.svg"/>
           </div>
           <div class="text">
-            <h3>Create your story</h3>
-            <p>In just a minute you can see if you are eligible to participate in the voice study.
-              Find out now!</p>
+            <h3>Get started!</h3>
+            <p>In just a minute you can decide whether or not you'd like to
+              participate. Let's go!
+            </p>
 
             <p style="margin-top: 2rem">
               <router-link class="join-button" to="/study/intro">Join</router-link>
@@ -177,15 +186,15 @@ export default {
     font-size: 1.2rem;
     margin: 0;
     padding: 0;
-    color: #5A478F;
+    color: #;
   }
   h2 {
-    color: #268762;
+    color: #254588;
     text-align: center;
     margin: 1rem 0 .5rem 0;
   }
   h3 {
-    color: #268762;
+    color: #254588;
     margin: 0;
     margin-bottom: .25rem;
   }
@@ -229,10 +238,10 @@ export default {
     margin-left: 2rem;
   }
   .image.container .text h2 {
-    color: #219c6d;
+    color: #254588;
   }
   .image.container .text h3 {
-    color: #219c6d;
+    color: #245588;
   }
   .image.container .text p {
     font-size: .9rem;
@@ -241,7 +250,7 @@ export default {
     width: 100%;
   }
   .join-button {
-    background-color: #F5B33C;
+    background-color: #eafc40;
     color: #1A1C29!important;
     border-radius: 100px;
     border: none;
